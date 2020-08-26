@@ -23,11 +23,10 @@ func main() {
 	fmt.Printf("Czy chcesz liczbę w swoim nicku?")
 	var input string
 	fmt.Scanf("%s", &input)
-	fmt.Printf("test:" + input)
  if input == "y" {
 
-	 fmt.Printf(lines[rand.Intn(308)] + "_" + lines2[rand.Intn(308)])
+	 fmt.Printf(lines[rand.Intn(308)] + "_" + lines2[rand.Intn(308)]) + rand.Intn(100)
 
  } else if input == "n" {
-	 fmt.Printf("Wpisałeś n!")
+	 fmt.Printf(lines[rand.Intn(308)] + "_" + lines2[rand.Intn(308)])
 } }
